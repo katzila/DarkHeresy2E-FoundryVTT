@@ -5,7 +5,7 @@ export class ForceFieldSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "force-field"],
             template: "systems/dark-heresy/template/sheet/force-field.hbs",
-            width: 500,
+            width: 550,
             height: 369,
             resizable: false,
             tabs: [

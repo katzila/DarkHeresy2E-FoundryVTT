@@ -5,14 +5,32 @@
     width: 100%;
 }
 
+.dark-heresy .acolyte .header .bio-name label {
+    white-space: nowrap;
+}
+
 .dark-heresy .acolyte .header .home-world,
 .dark-heresy .acolyte .header .background {
     flex-basis: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .dark-heresy .acolyte .header .role,
 .dark-heresy .acolyte .header .elite {
-    flex-basis: 32%;
+    flex-basis: 36%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.dark-heresy .acolyte .header .fate,
+.dark-heresy .acolyte .header .fatigue {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .dark-heresy .acolyte .header .home-world input,
@@ -20,10 +38,12 @@
 .dark-heresy .acolyte .header .role input,
 .dark-heresy .acolyte .header .elite input {
     width: 11em;
+    flex: none;
 }
 
 .dark-heresy .acolyte .header .fate input,
 .dark-heresy .acolyte .header .fatigue input {
     width: 2em;
     margin: 0 5px;
+    flex: none;
 }

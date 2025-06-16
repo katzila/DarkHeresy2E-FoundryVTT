@@ -5,8 +5,8 @@ export class ArmourSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "armour"],
             template: "systems/dark-heresy/template/sheet/armour.hbs",
-            width: 500,
-            height: 369,
+            width: 540,
+            height: 395,
             resizable: false,
             tabs: [
                 {

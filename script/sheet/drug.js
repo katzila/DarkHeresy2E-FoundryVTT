@@ -5,7 +5,7 @@ export class DrugSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "drug"],
             template: "systems/dark-heresy/template/sheet/drug.hbs",
-            width: 500,
+            width: 600,
             height: 369,
             resizable: false,
             tabs: [

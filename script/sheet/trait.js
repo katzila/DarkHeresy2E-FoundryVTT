@@ -5,7 +5,7 @@ export class TraitSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "trait"],
             template: "systems/dark-heresy/template/sheet/trait.hbs",
-            width: 500,
+            width: 530,
             height: 369,
             resizable: false,
             tabs: [

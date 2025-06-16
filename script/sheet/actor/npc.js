@@ -6,8 +6,8 @@ export class NpcSheet extends DarkHeresySheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "actor"],
             template: "systems/dark-heresy/template/sheet/actor/npc.hbs",
-            width: 700,
-            height: 881,
+            width: 960,
+            height: 902,
             resizable: false,
             tabs: [
                 {

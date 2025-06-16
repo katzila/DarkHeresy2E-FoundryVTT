@@ -5,7 +5,7 @@ export class SpecialAbilitySheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "special-ability"],
             template: "systems/dark-heresy/template/sheet/special-ability.hbs",
-            width: 500,
+            width: 524,
             height: 369,
             resizable: false,
             tabs: [

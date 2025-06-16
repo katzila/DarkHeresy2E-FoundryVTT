@@ -5,7 +5,7 @@ export class TalentSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "talent"],
             template: "systems/dark-heresy/template/sheet/talent.hbs",
-            width: 500,
+            width: 660,
             height: 369,
             resizable: false,
             tabs: [

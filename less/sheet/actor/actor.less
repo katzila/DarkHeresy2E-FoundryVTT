@@ -76,6 +76,7 @@
     padding: 2px 4px;
     width: auto;
 }
+
 .dark-heresy button:focus,
 .dark-heresy button:hover {
     background: var(--color-foreground);
@@ -100,9 +101,9 @@
     box-shadow: inset 0 0 6px #7b3000;
     color: var(--color-text);
     font-family: var(--font-text);
-    font-size: 12px;
+    font-size: 16px;
     height: auto;
-    line-height: 16px;
+    line-height: 18px;
     padding: 2px 4px;
     width: 100%;
 }
@@ -111,6 +112,7 @@
     -moz-appearance: textfield;
     text-align: center;
 }
+
 .dark-heresy input[type="number"]::-webkit-outer-spin-button,
 .dark-heresy input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -140,12 +142,11 @@
 
 .dark-heresy .item-list .header {
     width: 100%;
-    height: 22px;
     border: 0 none;
     border-radius: 3px;
     font-family: var(--font-text);
     font-size: 16px;
-    line-height: 14px;
+    line-height: 16px;
     margin: 0;
     padding: 4px 4px;
     text-align: center;
@@ -160,6 +161,7 @@
 
 .dark-heresy .item-list .items .item {
     align-items: center;
+    justify-content: space-around;
 }
 
 .dark-heresy .item-list .fas {
@@ -190,7 +192,7 @@
 }
 
 .dark-heresy.sheet .header .header-row {
-    align-items: baseline;
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -5,7 +5,7 @@ export class GearSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "gear"],
             template: "systems/dark-heresy/template/sheet/gear.hbs",
-            width: 500,
+            width: 610,
             height: 369,
             resizable: false,
             tabs: [

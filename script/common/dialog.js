@@ -48,7 +48,7 @@ export async function prepareCommonRoll(rollData) {
             });
         }
     }, {
-        width: 200
+        width: 270
     });
     dialog.render(true);
 }
@@ -122,7 +122,7 @@ export async function prepareCombatRoll(rollData, actorRef) {
             },
             default: "roll",
             close: () => {}
-        }, {width: 200});
+        }, {width: 250});
         dialog.render(true);
     }
 }

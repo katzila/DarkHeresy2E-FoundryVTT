@@ -5,8 +5,8 @@ export class WeaponSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "weapon"],
             template: "systems/dark-heresy/template/sheet/weapon.hbs",
-            width: 500,
-            height: 369,
+            width: 700,
+            height: 390,
             resizable: false,
             tabs: [
                 {

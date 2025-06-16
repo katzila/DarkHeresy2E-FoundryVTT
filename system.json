@@ -19,7 +19,7 @@
     { "name":"fredthedeadhead" },
     { "name":"Perfectro" }, 
     { "name":"Vendare",
-	  "discord": "Vendare#4014",},
+	  "discord": "Vendare#4014"},
     { "name":"Silver292" },
     { "name":"Giddy" },
     { "name":"Dazzerix" },
@@ -61,6 +61,11 @@
       "lang": "pl",
       "name": "Polski",
       "path": "lang/pl.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
     }
   ],
   "gridDistance": 1,

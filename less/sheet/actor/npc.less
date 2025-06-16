@@ -5,14 +5,26 @@
     width: 100%;
 }
 
+.dark-heresy .npc .header .bio-name label {
+    white-space: nowrap;
+}
+
 .dark-heresy .npc .header .type,
 .dark-heresy .npc .header .faction {
-    flex-basis: 35%;
+    flex-basis: 31%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
 }
 
 .dark-heresy .npc .header .threat-level,
 .dark-heresy .npc .header .subfaction {
-    flex-basis: 40%;
+    flex-basis: 32%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
 }
 
 .dark-heresy .npc .header .type select,
@@ -21,6 +33,7 @@
 .dark-heresy .npc .header .subfaction input {
     width: 11em;
     height: 22px;
+    flex: none;
 }
 
 .dark-heresy .npc .header .fate input,

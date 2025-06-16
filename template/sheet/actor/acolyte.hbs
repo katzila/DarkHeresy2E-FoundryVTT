@@ -6,7 +6,7 @@
                     <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
                 </div>
                 <div class="flex column grow">
-                    <div class="name header-row">
+                    <div class="name header-row bio-name">
                         <label>{{localize "BIO.NAME"}}</label>
                         <input name="name" type="text" value="{{actor.name}}" />
                     </div>
@@ -21,7 +21,7 @@
                         </div>
                         <div class="fate">
                             <label>{{localize "FATE"}}</label>
-                            <input style="margin-left: 20px" name="system.fate.value" type="number" value="{{system.fate.value}}" data-dtype="Number" />
+                            <input name="system.fate.value" type="number" value="{{system.fate.value}}" data-dtype="Number" />
                             /
                             <input name="system.fate.max" type="number" value="{{system.fate.max}}" data-dtype="Number" />
                         </div>

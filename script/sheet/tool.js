@@ -5,7 +5,7 @@ export class ToolSheet extends DarkHeresyItemSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["dark-heresy", "sheet", "tool"],
             template: "systems/dark-heresy/template/sheet/tool.hbs",
-            width: 500,
+            width: 600,
             height: 369,
             resizable: false,
             tabs: [
