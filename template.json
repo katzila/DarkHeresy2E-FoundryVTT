@@ -1239,7 +1239,8 @@
       "installed": false
     },
     "aptitude" : {
-      "templates": ["itemDescription"]
+      "templates": ["itemDescription"],
+      "aptitude_code": ""
     }
   }
 }

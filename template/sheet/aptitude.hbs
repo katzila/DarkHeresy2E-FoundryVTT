@@ -9,6 +9,32 @@
                     <label>{{localize "APTITUDE.NAME"}}</label>
                     <input name="name" type="text" value="{{item.name}}" />
                 </div>
+                <div class="code header-row">
+                    <label>{{localize "APTITUDE.CODE"}}</label>
+                    <select name="system.aptitude_code">
+                        {{#select system.aptitude_code}}
+                            <option value="Offence">Offence</option>
+                            <option value="Fellowship">Fellowship</option>
+                            <option value="Defence">Defence</option>
+                            <option value="Tech">Tech</option>
+                            <option value="Knowledge">Knowledge</option>
+                            <option value="Strength">Strength</option>
+                            <option value="Intelligence">Intelligence</option>
+                            <option value="Psyker">Psyker</option>
+                            <option value="Perception">Perception</option>
+                            <option value="Weapon Skill">Weapon Skill</option>
+                            <option value="Finesse">Finesse</option>
+                            <option value="Agility">Agility</option>
+                            <option value="Willpower">Willpower</option>
+                            <option value="Fieldcraft">Fieldcraft</option>
+                            <option value="Toughness">Toughness</option>
+                            <option value="Ballistic Skill">Ballistic Skill</option>
+                            <option value="Leadership">Leadership</option>
+                            <option value="Social">Social</option>
+                            <option value="General">General</option>
+                        {{/select}}
+                    </select>
+                </div>
             </div>
         </div>
     </div>
