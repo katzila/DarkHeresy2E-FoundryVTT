@@ -48,7 +48,7 @@ export async function prepareCommonRoll(rollData) {
             });
         }
     }, {
-        width: 270
+        width: 245
     });
     dialog.render(true);
 }
