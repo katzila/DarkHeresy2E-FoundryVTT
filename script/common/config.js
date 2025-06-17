@@ -113,6 +113,28 @@ Dh.weaponClass = {
     vehicle: "WEAPON.VEHICLE"
 };
 
+Dh.aptitudes = {
+    Offence: "APTITUDE.OFFENCE",
+    Fellowship: "APTITUDE.FELLOWSHIP",
+    Defence: "APTITUDE.DEFENCE",
+    Tech: "APTITUDE.TECH",
+    Knowledge: "APTITUDE.KNOWLEDGE",
+    Strength: "APTITUDE.STRENGTH",
+    Intelligence: "APTITUDE.INTELLIGENCE",
+    Psyker: "APTITUDE.PSYKER",
+    Perception: "APTITUDE.PERCEPTION",
+    WeaponSkill: "APTITUDE.WEAPON_SKILL",
+    Finesse: "APTITUDE.FINESSE",
+    Agility: "APTITUDE.AGILITY",
+    Willpower: "APTITUDE.WILLPOWER",
+    Fieldcraft: "APTITUDE.FIELDCRAFT",
+    Toughness: "APTITUDE.TOUGHNESS",
+    BallisticSkill: "APTITUDE.BALLISTIC_SKILL",
+    Leadership: "APTITUDE.LEADERSHIP",
+    Social: "APTITUDE.SOCIAL",
+    General: "APTITUDE.GENERAL"
+};
+
 Dh.psykerClass = {
     bound: "PSYCHIC_POWER.BOUND",
     unbound: "PSYCHIC_POWER.UNBOUND",

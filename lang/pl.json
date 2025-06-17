@@ -345,6 +345,8 @@
   "TALENT.PREREQUISITES": "Predyspozycje",
   "TALENT.TIER": "Stopień",
   "TALENT.APTITUDES": "Zdolności",
+  "TALENT.APTITUDE_CODE1": "Zdolność 1",
+  "TALENT.APTITUDE_CODE2": "Zdolność 2",
 
   "TOOL.HEADER": "Narzędzia",
   "TOOL.NAME": "Nazwa",

@@ -317,7 +317,9 @@ export class DarkHeresyItem extends Item {
 
     get prerequisites() { return this.system.prerequisites;}
 
-    get aptitudes() { return this.system.aptitudes;}
+    get aptitude_code1() { return this.system.aptitude_code1;}
+
+    get aptitude_code2() { return this.system.aptitude_code2;}
 
     get starter() { return this.system.starter;}
 

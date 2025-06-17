@@ -1197,7 +1197,8 @@
     "talent": {
       "templates": ["itemDescription"],
       "prerequisites": "",
-      "aptitudes": "",
+      "aptitude_code1": "",
+      "aptitude_code2": "",
       "benefit": "",
       "tier": 0,
       "starter": false,

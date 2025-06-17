@@ -8,19 +8,61 @@
     align-content: baseline;
 }
 
-.dark-heresy.talent .stats .stats-row .stat.prerequisites input {
-    width: 28em;
+.dark-heresy.talent .stats .stats-row .stat.prerequisites {
+    flex: 80%;
+
+    label {
+        flex: calc(15% / 0.8);
+    }
+
+    input {
+        width: calc(100% - 15% / 0.8)
+    }
 }
 
-.dark-heresy.talent .stats .stats-row .stat.tier input {
-    width: 2em;
-    text-align: center;
+.dark-heresy.talent .stats .stats-row .stat.tier {
+    flex: 20%;
+    gap: 5px;
+    justify-content: end;
+
+    input {
+        width: 2em;
+        text-align: center;
+    }
 }
 
-.dark-heresy.talent .stats .stats-row .stat.aptitudes input {
-    width: 416px;
+.dark-heresy.talent .stats .stats-row .stat.aptitude1 {
+    flex: 50%;
+
+    label {
+        flex: 30%;
+    }
+
+    select {
+        flex: 70%;
+    }
 }
 
-.dark-heresy.talent .stats .stats-row .stat.benefit input {
-    width: 428px;
+.dark-heresy.talent .stats .stats-row .stat.aptitude2 {
+    flex: 50%;
+
+    label {
+        flex: 30%;
+    }
+
+    select {
+        flex: 70%;
+    }
+}
+
+.dark-heresy.talent .stats .stats-row .stat.benefit {
+    flex: 100%;
+
+    label {
+        flex: 15%;
+    }
+
+    input {
+        flex: 85%;
+    }
 }

@@ -89,7 +89,7 @@ export class DarkHeresyActor extends Actor {
 
     _computeExperience_auto() {
         let config = game.darkHeresy.config;
-        let characterAptitudes = this.items.filter(it => it.isAptitude).map(it => it.name.trim());
+        let characterAptitudes = this.items.filter(it => it.isAptitude).map(it => it.system.aptitude_code?.trim());
         if (!characterAptitudes.includes("General")) characterAptitudes.push("General");
         this.experience.spentCharacteristics = 0;
         this.experience.spentSkills = 0;
@@ -130,10 +130,10 @@ export class DarkHeresyActor extends Actor {
         }
         for (let item of this.items.filter(it => it.isTalent || it.isPsychicPower)) {
             if (item.isTalent) {
-                let talentAptitudes = item.aptitudes.split(",").map(it => it.trim());
-                let matchedAptitudes = characterAptitudes.filter(it => talentAptitudes.includes(it)).length;
+                const talentAptitudes = [item.aptitude_code1, item.aptitude_code2].filter(it => it?.trim());
+                const matchedAptitudes = characterAptitudes.filter(it => talentAptitudes.includes(it)).length;
                 let cost = 0;
-                let tier = parseInt(item.tier);
+                const tier = parseInt(item.tier);
                 if (!item.system.starter && tier >= 1 && tier <= 3) {
                     cost = config.talentCosts[tier - 1][2 - matchedAptitudes];
                 }
