@@ -168,6 +168,6 @@ export async function preparePsychicPowerRoll(rollData) {
         },
         default: "roll",
         close: () => {}
-    }, {width: 200});
+    }, {width: 245});
     dialog.render(true);
 }

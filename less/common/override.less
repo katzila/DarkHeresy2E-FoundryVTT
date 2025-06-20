@@ -35,12 +35,16 @@ text-shadow: 0 0 8px #483d33, 0 0 8px #483d33, 0 0 8px #483d33;
 .subdirectory,
 .subdirectory .folder,
 .sidebar-tab .directory-list .entity,
-li.folder > .folder-header,
-.sidebar-tab .directory-list .folder + .entity,
+li.folder>.folder-header,
+.sidebar-tab .directory-list .folder+.entity,
 .sidebar-tab .directory-list .entity:last-child,
 .sidebar-tab .directory-list .directory-item {
-border: none;
-line-height: 34px
+    border: none;
+    line-height: 34px;
+
+    header h4 {
+        height: auto;
+    }
 }
 
 /* MARGIN & PADDING SHENANIGANS */
