@@ -137,21 +137,19 @@
                      <div class="header-inner">
                     <b class="name">{{localize "PSYCHIC_POWER.NAME"}}</b>
                     <b class="cost">{{localize "PSYCHIC_POWER.COST"}}</b>
-                    <b class="starter">{{localize "PSYCHIC_POWER.STARTER"}}</b>
                     <a class="button item-create" title="Add Psychic Power" data-type="psychicPower"><i class="fas fa-plus"></i></a>
                      </div>
                 </div>
                 <div class="items">
-                    {{#each items.psychicPowers as |item|}}
-                        <div class="psychic-power item flex row" data-item-id="{{item.id}}">
+                    {{#each items.psychicPowers as |psychicPower|}}
+                        <div class="psychic-power item flex row" data-item-id="{{psychicPower.id}}">
                             <div class="flex psychic-powers-row item-edit">
                                 <div class="image-container">
-                                    <div class="image" style="background-image: url('{{item.img}}')"></div>
+                                    <div class="image" style="background-image: url('{{psychicPower.img}}')"></div>
                                 </div>
-                            <div class="name">{{item.name}}</div>
+                            <div class="name">{{psychicPower.name}}</div>
                         </div>
-                        <input class="item-cost" type="number" value="{{item.cost}}" data-dtype="Number" />
-                        <input class="item-starter" type="checkbox" {{#if item.starter}}checked{{/if}} data-dtype="Boolean"/>
+                        <input class="item-cost" type="number" value="{{psychicPower.cost}}" data-dtype="Number" />
                         <div class="button psychic-power-delete">
                             <a class="item-control item-delete" title="Delete Psychic Power"><i class="fas fa-trash"></i></a>
                         </div>
