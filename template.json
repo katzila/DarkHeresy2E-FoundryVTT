@@ -1172,6 +1172,7 @@
       "templates": ["itemDescription"],
       "shortDescription": "",
       "cost": 0,
+      "starter": false,
       "prerequisite": "",
       "action": "",
       "focusPower": {

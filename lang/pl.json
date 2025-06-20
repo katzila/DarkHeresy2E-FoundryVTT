@@ -257,6 +257,7 @@
 
   "PSYCHIC_POWER.NAME": "Nazwa",
   "PSYCHIC_POWER.COST": "Koszt",
+  "PSYCHIC_POWER.STARTER": "I",
   "PSYCHIC_POWER.CLASS": "Klasa",
   "PSYCHIC_POWER.RATING": "Współczynnik Psioniczny",
   "PSYCHIC_POWER.PREREQUISITE": "Predyspozycje",

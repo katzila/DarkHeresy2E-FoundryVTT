@@ -313,6 +313,7 @@
 
   "PSYCHIC_POWER.NAME": "Имя",
   "PSYCHIC_POWER.COST": "Стоимость",
+  "PSYCHIC_POWER.STARTER": "ИЗН",
   "PSYCHIC_POWER.CLASS": "Класс",
   "PSYCHIC_POWER.RATING": "Пси рейтинг",
   "PSYCHIC_POWER.PREREQUISITE": "Требования",

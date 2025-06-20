@@ -226,6 +226,7 @@
   
     "PSYCHIC_POWER.NAME": "Nom",
     "PSYCHIC_POWER.COST": "Coût",
+    "PSYCHIC_POWER.STARTER": "I",
     "PSYCHIC_POWER.CLASS": "Discipline",
     "PSYCHIC_POWER.RATING": "Niveau psy",
     "PSYCHIC_POWER.PREREQUISITE": "Prérequis",
