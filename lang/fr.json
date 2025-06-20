@@ -365,6 +365,7 @@
     "WEAPON.DAMAGE": "Dég",
     "WEAPON.DAMAGE_FULL": "Dégâts",
     "WEAPON.DAMAGE_TYPE": "Type",
+    "WEAPON.SINGLE_SHOT_SHORT": "T",
     "WEAPON.PENETRATION": "Pén",
     "WEAPON.PENETRATION_FULL": "Pénétration",
     "WEAPON.CLIP": "AT",
