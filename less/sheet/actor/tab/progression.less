@@ -257,48 +257,70 @@
     flex-basis: 40%;
 }
 
-.dark-heresy .progression .psychic-powers .item-list .header {
-    margin-top: 5px;
-}
+.dark-heresy .progression .psychic-powers .item-list {
+    .header {
+        margin-top: 5px;
+        padding: 0;
+        padding-right: 10px;
 
-.dark-heresy .progression .psychic-powers .item-list .header .name {
-    flex-basis: 60%;
-}
+        .header-inner {
+            display: flex;
+            width: 100%;
 
-.dark-heresy .progression .psychic-powers .item-list .header .cost {
-    flex-basis: 25%;
-}
+            .name {
+                flex-basis: 60%;
+            }
 
-.dark-heresy .progression .psychic-powers .item-list .header .starter {
-    flex-basis: 9%;
-    padding-right: 11px;
-}
+            .cost {
+                flex-basis: 20%;
+                margin: 0 5px;
+            }
 
-.dark-heresy .progression .psychic-powers .item-list .items .psychic-power {
-    width: 100%;
-}
+            .starter {
+                flex-basis: 9%;
+            }
 
-.dark-heresy .progression .psychic-powers .item-list .items {
-    max-height: 107px;
-    height: 107px;
-}
+            .item-create {
+                flex-basis: 10%;
+            }
+        }
+    }
 
-.dark-heresy .progression .psychic-powers .item-list .items .item .psychic-powers-row {
-    flex-basis: 60%;
-    align-items: center;
-}
+    @supports (-moz-appearance: none) {
+        .header {
+            padding-right: 0;
+        }
+    }
 
-.dark-heresy .progression .psychic-powers .item-list .items .item input {
-    flex-basis: 25%;
-    margin: 1px 5px;
-}
+    .items {
+        max-height: 107px;
+        height: 107px;
 
-.dark-heresy .progression .psychic-powers .item-list .items .item input.item-starter {
-    flex-basis: 9%;
-    margin: 1px;
-    margin-right: 4px;
-    width: 15px;
-    height: 15px;
+        .item.psychic-power {
+            width: 100%;
+
+            .psychic-powers-row {
+                flex-basis: 60%;
+                align-items: center;
+            }
+
+            .item-cost {
+                flex-basis: 20%;
+                margin: 1px 5px;
+            }
+
+            .item-starter {
+                flex-basis: 9%;
+                margin: 0;
+                width: 15px;
+                height: 15px;
+            }
+
+            .psychic-power-delete {
+                flex-basis: 10%;
+            }
+        }
+    }
 }
 
 .dark-heresy .progression .skills {

@@ -133,11 +133,13 @@
                 </div>
             </div>
             <div class="item-list">
-                <div class="flex header">
+                <div class="header">
+                     <div class="header-inner">
                     <b class="name">{{localize "PSYCHIC_POWER.NAME"}}</b>
                     <b class="cost">{{localize "PSYCHIC_POWER.COST"}}</b>
                     <b class="starter">{{localize "PSYCHIC_POWER.STARTER"}}</b>
                     <a class="button item-create" title="Add Psychic Power" data-type="psychicPower"><i class="fas fa-plus"></i></a>
+                     </div>
                 </div>
                 <div class="items">
                     {{#each items.psychicPowers as |item|}}
@@ -150,7 +152,7 @@
                         </div>
                         <input class="item-cost" type="number" value="{{item.cost}}" data-dtype="Number" />
                         <input class="item-starter" type="checkbox" {{#if item.starter}}checked{{/if}} data-dtype="Boolean"/>
-                        <div class="button">
+                        <div class="button psychic-power-delete">
                             <a class="item-control item-delete" title="Delete Psychic Power"><i class="fas fa-trash"></i></a>
                         </div>
                         </div>
