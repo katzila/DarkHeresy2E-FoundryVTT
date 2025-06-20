@@ -1,76 +1,117 @@
-.dark-heresy.psychic-power .notes-editor {
-    height: 225px;
-    max-height: 225px;
-}
+.dark-heresy.psychic-power {
+    .notes-editor {
+        height: 225px;
+        max-height: 225px;
+    }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.prerequisite input {
-    width: 10em;
-}
+    .stats .stats-row {
+        .stat.prerequisite {
+            flex: 39%;
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.action input {
-    width: 6em;
-    text-align: center;
-}
+        .stat.action {
+            flex: 25%;
 
-.dark-heresy.psychic-power .stats .stats-row .stat.focus-power input[type="number"] {
-    width: 2em;
-    text-align: center;
-}
+            input {
+                text-align: center;
+            }
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.focus-power input[type="text"] {
-    width: 8em;
-    text-align: center;
-}
+        .stat.subtype {
+            flex: 34%;
 
-.dark-heresy.psychic-power .stats .stats-row .stat.range input {
-    width: 4em;
-    text-align: center;
-}
+            input {
+                text-align: center;
+            }
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.sustained input {
-    width: 6em;
-    text-align: center;
-}
+        .stat.focus-power {
+            flex: 39%;
+            width: 39%;
+            max-width: 39%;
 
-.dark-heresy.psychic-power .stats .stats-row .stat.subtype input {
-    width: 9em;
-    text-align: center;
-}
+            input[type="number"] {
+                width: 2em;
+                text-align: center;
+            }
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.damage input {
-    width: 5em;
-    text-align: center;
-}
+        .stat.range {
+            flex: 25%;
 
-.dark-heresy.psychic-power .stats .stats-row .stat.damage select {
-    width: 6em;
-    margin-left: 2px;
-}
+            input {
+                width: 4em;
+                text-align: center;
+            }
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.penetration input {
-    width: 4em;
-    text-align: center;
-}
+        .stat.sustained {
+            flex: 34%;
+            justify-content: end;
 
-.dark-heresy.psychic-power .stats .stats-row .stat.rate-of-fire input {
-    width: 2em;
-    text-align: center;
-    margin: 0 2px;
-}
+            input {
+                width: 6em;
+                text-align: center;
+            }
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.zone select {
-    width: 8em;
-}
+        .stat.damage {
+            flex: 39%;
+            width: 39%;
+            max-width: 39%;
+            justify-content: end;
 
-.dark-heresy.psychic-power .stats .stats-row .stat.special input {
-    width: 427px;
-}
+            input {
+                width: 5em;
+                text-align: center;
+            }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.short-description input {
-    width: 372px;
-}
+            select {
+                width: 6em;
+                margin-left: 2px;
+            }
+        }
 
-.dark-heresy.psychic-power .stats .stats-row .stat.cost input {
-    width: 4em;
-    text-align: center;
+        .stat.penetration {
+            flex: 25%;
+            justify-content: end;
+
+            input {
+                width: 4em;
+                text-align: center;
+            }
+        }
+
+        .stat.zone {
+            flex: 34%;
+            justify-content: end;
+
+            select {
+                width: 8em;
+            }
+        }
+
+        .stat.special,
+        .stat.short-description {
+            flex: 100%;
+
+            label {
+                flex: 20%;
+            }
+
+            input {
+                flex: 80%;
+            }
+        }
+
+        .stat.cost {
+            flex: 100%;
+            justify-content: end;
+
+            input {
+                width: 4em;
+                text-align: center;
+            }
+        }
+    }
 }
